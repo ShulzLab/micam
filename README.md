@@ -13,7 +13,7 @@ Example usage :
     #or
     real_vsd_data= DATA["matrix"]
     print(real_vsd_data.shape())
-    #>> First two dims are X and Y, last dimension is time
+    #>> First two dims are X and Y, last dimension is time. Care , datatype is uint16, not uint8 (max value is not 255 but 65535)
     
     
     analog_signals = DATA[1]
