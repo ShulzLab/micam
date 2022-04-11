@@ -14,7 +14,7 @@ Example usage :
     real_vsd_data= DATA["matrix"]
     print(real_vsd_data.shape())
     #>> First two dims are X and Y, last dimension is time.
-    #Be carefull, datatype is uint16, not uint8 (max value is not 255 but 65535) because MICAM ultima's sensor has 16bit depth
+    #Be carefull, datatype is uint16, not uint8, but max value is (max value is not 255 but 65535) because MICAM ultima's sensor has 16bit depth
     
     
     analog_signals = DATA[1]
